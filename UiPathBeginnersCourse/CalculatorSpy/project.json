@@ -49,14 +49,14 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Exercise1_tryout.xaml",
-      "uniqueId": "bf3cda49-3fa6-46bd-b009-74ef3a2f2865",
+      "filePath": "MainSeq.xaml",
+      "uniqueId": "d0806c42-b9a8-4b97-a96a-9771bd00c6ee",
       "input": [],
       "output": []
     },
     {
       "filePath": "Main.xaml",
-      "uniqueId": "f63dac3b-cd9e-4997-a126-9b81e8222874",
+      "uniqueId": "210301a5-6cec-4ecd-b076-c551b06dcdde",
       "input": [],
       "output": []
     }

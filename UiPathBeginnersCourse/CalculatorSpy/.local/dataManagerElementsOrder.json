@@ -9,33 +9,40 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "Exercise1_tryout.xaml",
+      "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "variable1&Sequence_3",
-        "Operators&Sequence_1",
-        "Str_UserInput1&Sequence_1",
-        "Str_UserInput2&Sequence_1"
+        "NumbersCollection&Sequence_4",
+        "firstColumn&Sequence_4",
+        "dt_SummationTable&Sequence_4",
+        "firstRow&Sequence_4",
+        "firstColumnRowEntries&Sequence_4",
+        "dt_SummationColumnTable&Sequence_4",
+        "dt_SummationRowTables&Sequence_4",
+        "secondColumn&Sequence_4",
+        "row&Sequence_4",
+        "number1&Sequence_5",
+        "number2&Sequence_5"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
-      "Path": "Main.xaml",
+      "Path": "MainSeq.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "firstColumn&Sequence_1",
-        "row&Sequence_1",
-        "number2&Sequence_3",
-        "number1&Sequence_3",
-        "secondColumn&Sequence_1",
-        "NumbersCollection&Sequence_1",
-        "dt_SummationRowTables&Sequence_1",
-        "dt_SummationColumnTable&Sequence_1",
-        "firstColumnRowEntries&Sequence_1",
-        "firstRow&Sequence_1",
-        "dt_SummationTable&Sequence_1"
+        "NumbersCollection&Sequence_5",
+        "firstColumn&Sequence_5",
+        "dt_SummationTable&Sequence_5",
+        "firstRow&Sequence_5",
+        "firstColumnRowEntries&Sequence_5",
+        "dt_SummationColumnTable&Sequence_5",
+        "dt_SummationRowTables&Sequence_5",
+        "secondColumn&Sequence_5",
+        "row&Sequence_5",
+        "number1&Sequence_6",
+        "number2&Sequence_6"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],

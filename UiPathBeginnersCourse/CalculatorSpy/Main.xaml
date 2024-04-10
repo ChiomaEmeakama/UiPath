@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Exercise1" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="1130.4,4120.8" sap2010:WorkflowViewState.IdRef="Exercise1_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Exercise1" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="1130.4,3706.4" sap2010:WorkflowViewState.IdRef="Exercise1_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -104,7 +104,7 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Exercise1" sap:VirtualizedContainerService.HintSize="608,4056" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Exercise1" sap:VirtualizedContainerService.HintSize="608,3641.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="NumbersCollection" />
       <Variable x:TypeArguments="x:String" Name="firstColumn" />
@@ -121,8 +121,8 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:Comment sap:VirtualizedContainerService.HintSize="545.6,192" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// Initiating a new DataTable, and assigning a variable name &quot;NumbersCollection&quot; to it.&#xA;&#xD;&#xA;// Then adding 2 columns (&quot;FirstColumn&quot; and &quot;secondColumn&quot;) to this NumbersCollection" />
-    <Assign sap:VirtualizedContainerService.HintSize="545.6,121.6" sap2010:WorkflowViewState.IdRef="Assign_3">
+    <ui:Comment sap:VirtualizedContainerService.HintSize="545.6,192" sap2010:WorkflowViewState.IdRef="Comment_5" Text="// Initiating a new DataTable, and assigning a variable name &quot;NumbersCollection&quot; to it.&#xA;&#xA;// Then adding 2 columns (&quot;FirstColumn&quot; and &quot;secondColumn&quot;) to this NumbersCollection" />
+    <Assign sap:VirtualizedContainerService.HintSize="545.6,121.6" sap2010:WorkflowViewState.IdRef="Assign_4">
       <Assign.To>
         <OutArgument x:TypeArguments="sd:DataTable">[NumbersCollection]</OutArgument>
       </Assign.To>
@@ -130,18 +130,18 @@
         <InArgument x:TypeArguments="sd:DataTable">[New DataTable()]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="firstColumn" DataTable="[NumbersCollection]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="545.6,228" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_1" />
-    <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="secondColumn" DataTable="[NumbersCollection]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="545.6,228" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_2" />
-    <ui:Comment sap:VirtualizedContainerService.HintSize="545.6,231.2" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Adding two rows to reach of these columns, and assigning values to each column's row.&#xA;&#xD;&#xA;//Row 1: firstColumn=10, secondColumn=30&#xD;&#xA;&#xD;&#xA;//Row 2: firstColumn= 30, secondColumn= 40" />
-    <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{&quot;10&quot;,&quot;30&quot;}]" DataTable="[NumbersCollection]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="545.6,228" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
-    <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{&quot;30&quot;,&quot;40&quot;}]" DataTable="[NumbersCollection]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="545.6,228" sap2010:WorkflowViewState.IdRef="AddDataRow_2" />
-    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[NumbersCollection]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="545.6,2510.4" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+    <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="firstColumn" DataTable="[NumbersCollection]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="545.6,228" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_3" />
+    <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="secondColumn" DataTable="[NumbersCollection]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="545.6,228" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_4" />
+    <ui:Comment sap:VirtualizedContainerService.HintSize="545.6,231.2" sap2010:WorkflowViewState.IdRef="Comment_6" Text="// Adding two rows to reach of these columns, and assigning values to each column's row.&#xA;&#xA;//Row 1: firstColumn=10, secondColumn=30&#xA;&#xA;//Row 2: firstColumn= 30, secondColumn= 40" />
+    <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{&quot;10&quot;,&quot;30&quot;}]" DataTable="[NumbersCollection]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="545.6,228" sap2010:WorkflowViewState.IdRef="AddDataRow_3" />
+    <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{&quot;30&quot;,&quot;40&quot;}]" DataTable="[NumbersCollection]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="545.6,228" sap2010:WorkflowViewState.IdRef="AddDataRow_4" />
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[NumbersCollection]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="545.6,2096" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,2321.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,1907.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="number1" />
               <Variable x:TypeArguments="x:String" Name="number2" />
@@ -151,8 +151,8 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:Comment sap:VirtualizedContainerService.HintSize="449.6,211.2" sap2010:WorkflowViewState.IdRef="Comment_3" Text="// To start the claculation, I iterated through each row to get the values of  each column,&#xD;&#xA;&#xD;&#xA;// Oened the calculator app, and added the firstColumn's value to that of the secondColumn's value and clicking the equality sign to get the sum.&#xD;&#xA;" />
-            <Assign sap:VirtualizedContainerService.HintSize="449.6,121.6" sap2010:WorkflowViewState.IdRef="Assign_1">
+            <ui:Comment sap:VirtualizedContainerService.HintSize="449.6,211.2" sap2010:WorkflowViewState.IdRef="Comment_7" Text="// To start the calculation, I iterated through each row to get the values of  each column,&#xA;&#xA;// Opened the calculator app, and added the firstColumn's value to that of the secondColumn's value and clicking the equality sign to get the sum.&#xA;" />
+            <Assign sap:VirtualizedContainerService.HintSize="449.6,121.6" sap2010:WorkflowViewState.IdRef="Assign_5">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">[number1]</OutArgument>
               </Assign.To>
@@ -160,7 +160,7 @@
                 <InArgument x:TypeArguments="x:String">[Convert.ToString(CurrentRow("firstColumn"))]</InArgument>
               </Assign.Value>
             </Assign>
-            <Assign sap:VirtualizedContainerService.HintSize="449.6,121.6" sap2010:WorkflowViewState.IdRef="Assign_2">
+            <Assign sap:VirtualizedContainerService.HintSize="449.6,121.6" sap2010:WorkflowViewState.IdRef="Assign_6">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">[number2]</OutArgument>
               </Assign.To>
@@ -168,41 +168,31 @@
                 <InArgument x:TypeArguments="x:String">[Convert.ToString(CurrentRow("secondColumn"))]</InArgument>
               </Assign.Value>
             </Assign>
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Calculator" sap:VirtualizedContainerService.HintSize="449.6,1780.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="d6615790-27f8-4224-9800-050f1f4345a4" Version="V2">
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Calculator" sap:VirtualizedContainerService.HintSize="449.6,1366.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="d6615790-27f8-4224-9800-050f1f4345a4" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1466.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1052" sap2010:WorkflowViewState.IdRef="Sequence_6">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Label'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="d6615790-27f8-4224-9800-050f1f4345a4" Text="[CurrentRow(&quot;firstColumn&quot;).ToString]" Version="V3">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Label'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="d6615790-27f8-4224-9800-050f1f4345a4" Text="[number1 + &quot;[k(Add)]&quot;]" Timeout="1" Version="V3">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable CvTextArea="440, 152, 35, 50" CvTextArgument="0" CvType="Text" DesignTimeRectangle="9, 136, 482, 114" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='CalculatorResults' name='Display is 0' role='text' /&gt;" FuzzySelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='CalculatorResults' name='Display is 0' role='text' check:fulltext='0' /&gt;" Guid="efa0192d-8cfa-4998-a576-1ceacaedea49" InformativeScreenshot="15640fdcffc20f1d382c16aac9f1c322.png" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='Microsoft.WindowsCalculator_8wekyb3d8bbwe!App' title='Calculator' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive" />
                       </uix:NTypeInto.Target>
                     </uix:NTypeInto>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6615790-27f8-4224-9800-050f1f4345a4" Version="V3">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable CvElementArea="370, 622, 115, 80" CvTextArea="418, 655, 18, 17" CvTextArgument="+" CvType="Button" DesignTimeRectangle="371, 626, 116, 79" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='StandardOperators' cls='NamedContainerAutomationPeer' name='Standard operators' /&gt;&lt;uia automationid='plusButton' cls='Button' name='Plus' /&gt;" FuzzySelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='StandardOperators' cls='NamedContainerAutomationPeer' name='Standard operators' /&gt;&lt;uia automationid='plusButton' cls='Button' name='Plus' role='button' check:fulltext='' /&gt;" Guid="814ddb46-abef-4606-982c-3855aeac6508" InformativeScreenshot="4831b5c03ab0633d1fee85c0dc5ceb3e.png" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='Microsoft.WindowsCalculator_8wekyb3d8bbwe!App' title='Calculator' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive" />
-                      </uix:NClick.Target>
-                    </uix:NClick>
-                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Label'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="d6615790-27f8-4224-9800-050f1f4345a4" Text="[CurrentRow(&quot;secondColumn&quot;).ToString]" Version="V3">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Label'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="d6615790-27f8-4224-9800-050f1f4345a4" Text="[number2 + &quot;[k(Enter)]&quot;]" Timeout="1" Version="V3">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable CvTextArea="440, 152, 35, 50" CvTextArgument="0" CvType="Text" DesignTimeRectangle="9, 136, 482, 114" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='CalculatorResults' name='Display is 0' role='text' /&gt;" FuzzySelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='CalculatorResults' name='Display is 0' role='text' check:fulltext='0' /&gt;" Guid="efa0192d-8cfa-4998-a576-1ceacaedea49" InformativeScreenshot="15640fdcffc20f1d382c16aac9f1c322.png" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='Microsoft.WindowsCalculator_8wekyb3d8bbwe!App' title='Calculator' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive" />
                       </uix:NTypeInto.Target>
                     </uix:NTypeInto>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6615790-27f8-4224-9800-050f1f4345a4" Version="V3">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable CvElementArea="369, 702, 119, 85" CvTextArea="414, 731, 27, 26" CvTextArgument="=" CvType="Button" DesignTimeRectangle="371, 707, 116, 79" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='StandardOperators' cls='NamedContainerAutomationPeer' name='Standard operators' /&gt;&lt;uia automationid='equalButton' cls='Button' name='Equals' /&gt;" FuzzySelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='StandardOperators' cls='NamedContainerAutomationPeer' name='Standard operators' /&gt;&lt;uia automationid='equalButton' cls='Button' name='Equals' role='button' check:fulltext='' /&gt;" Guid="87668ebb-9433-4562-b0a5-13a3ab275d08" InformativeScreenshot="869937008dfaf62ad95ab3d20e5e0878.png" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='Microsoft.WindowsCalculator_8wekyb3d8bbwe!App' title='Calculator' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive" />
-                      </uix:NClick.Target>
-                    </uix:NClick>
-                    <ui:Comment sap:VirtualizedContainerService.HintSize="353.6,153.6" sap2010:WorkflowViewState.IdRef="Comment_4" Text="// The delay, is to enable us see the final result for an extra 2seconds per iteration, right before the calculator app closes.is closed.&#xA;" />
-                    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="353.6,130.4" sap2010:WorkflowViewState.IdRef="Delay_2" />
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'CloseButton'" sap:VirtualizedContainerService.HintSize="353.6,182.4" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6615790-27f8-4224-9800-050f1f4345a4" Version="V3">
+                    <ui:Comment sap:VirtualizedContainerService.HintSize="353.6,134.4" sap2010:WorkflowViewState.IdRef="Comment_8" Text="// The delay, is to enable us see the final result for an extra 2seconds per iteration, right before the calculator app closes.&#xA;" />
+                    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="353.6,130.4" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'CloseButton'" sap:VirtualizedContainerService.HintSize="353.6,182.4" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6615790-27f8-4224-9800-050f1f4345a4" Version="V3">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable CvElementArea="450, 9, 22, 22" CvType="CloseButton" DesignTimeRectangle="450, 9, 22, 22" DesignTimeScaleFactor="1.25" ElementType="Button" Guid="a7ed2efd-26ea-436b-8811-193782e9a67a" InformativeScreenshot="84842ff99f2cca243a5d99713fcfcb30.png" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='Microsoft.WindowsCalculator_8wekyb3d8bbwe!App' title='Calculator' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V3" Visibility="Interactive" />
                       </uix:NClick.Target>

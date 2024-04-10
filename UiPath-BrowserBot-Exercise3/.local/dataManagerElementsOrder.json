@@ -1,0 +1,42 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Version5.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "summary&Sequence_3",
+        "title&Sequence_3",
+        "websiteName&Sequence_3",
+        "nyTimesTitle&Sequence_3",
+        "singleString&Sequence_3",
+        "positionOfTimes&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Exercise3_BOT.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "singleString&Sequence_2",
+        "positionOfTimes&Sequence_2",
+        "nyTimesTitle&Sequence_2",
+        "websiteName&Sequence_2",
+        "title&Sequence_2",
+        "summary&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Version5" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1130.4,3542.4" sap2010:WorkflowViewState.IdRef="Version5_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Version5" sap:VirtualizedContainerService.HintSize="592,3477.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: The New York Times - Breaking News, US News, World News and Videos" sap:VirtualizedContainerService.HintSize="529.6,3388.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="38ec3a8b-bd9a-4c51-ad82-45590eb7c931" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="496,3148.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="singleString" />
+              <Variable x:TypeArguments="x:Int32" Name="positionOfTimes" />
+              <Variable x:TypeArguments="x:String" Name="nyTimesTitle" />
+              <Variable x:TypeArguments="x:String" Name="websiteName" />
+              <Variable x:TypeArguments="x:String" Name="title" />
+              <Variable x:TypeArguments="x:String" Name="summary" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Arizona Ruling'" sap:VirtualizedContainerService.HintSize="433.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="38ec3a8b-bd9a-4c51-ad82-45590eb7c931" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.nytimes.com/" DesignTimeRectangle="209, 391, 364, 186" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl parentid='site-content' tag='SECTION' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='site-content' tag='SECTION' type='' class='story-wrapper' aaname='' /&gt;" Guid="94f2cdd7-1a8c-4ba2-8176-7c6400c0ad0a" ImageBase64="" InformativeScreenshot="7bbcc997e12c23e5976a72d6659d0945.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The New York Times - Breaking News, US News, World News and Videos' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="594, 391, 652, 434" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='site-content' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='site-content' tag='IMG' type='' class='css-o9w048' aaname='The Arizona Supreme Court in 2021.' /&gt;" ImageBase64="" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'Democrats quickly'" sap:VirtualizedContainerService.HintSize="433.6,197.6" sap2010:WorkflowViewState.IdRef="NGetText_9" ScopeIdentifier="38ec3a8b-bd9a-4c51-ad82-45590eb7c931" TextString="[nyTimesTitle]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.nytimes.com/2024/04/09/us/politics/arizona-abortion-politics.html" DesignTimeRectangle="584, 533, 750, 115" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='css-1f2g8uf e1h9rw200' /&gt;" Guid="937cb4c1-7d1a-4be3-8f8f-77bd50c0cb51" InformativeScreenshot="5ab52066d8d24dcd0f7a509da4aceb30.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Abortion Jumps to the Center of Arizona’s Key 2024 Races - The New York Times' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="584, 658, 750, 112" ElementType="Text" FullSelectorArgument="&lt;webctrl isleaf='1' parentid='story' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl isleaf='1' parentid='story' tag='P' type='' class='css-by6x3t' aaname='Democrats quickly aimed to capitalize on a ruling by the state’s highest court upholding an 1864 law that bans nearly all abortions.' /&gt;" ImageBase64="" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.6,125.6" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[&quot;NyTimes content is: &quot; + nyTimesTitle]" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Back Forward'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="433.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="HardwareEvents" ScopeIdentifier="38ec3a8b-bd9a-4c51-ad82-45590eb7c931" Text="[nyTimesTitle + &quot;[k(Enter)]&quot;]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="205, 72, 1414, 31" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Iran Smuggles Arms to West Bank, Officials Say, to Foment Unrest*' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Iran Smuggles Arms to West Bank, Officials Say, to Foment Unrest*' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' automationid='' /&gt;" Guid="b6cbe54b-f3eb-478d-a9c8-e531e3303c0c" InformativeScreenshot="94880d3c3e7f3e4f2922f041c9a0483d.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Iran Smuggles Arms to West Bank, Officials Say, to Foment Unrest*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="9, 59, 1920, 58" FullSelectorArgument="&lt;ctrl name='Abortion Jumps to the Center of Arizona’s Key 2024 Races - The N*' role='pane' /&gt;&lt;ctrl idx='22' role='pane' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Abortion Jumps to the Center of Arizona’s Key 2024 Races - The N*' role='pane' /&gt;&lt;ctrl automationid='' role='pane' check:fulltext='Back&amp;#xD;&amp;#xA;Forward&amp;#xD;&amp;#xA;Reload&amp;#xD;&amp;#xA;nytimes.com/2024/04/09/us/politics/arizona-abortion-politics.html&amp;#xD;&amp;#xA;' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'News'" sap:VirtualizedContainerService.HintSize="433.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="38ec3a8b-bd9a-4c51-ad82-45590eb7c931" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.google.com/search?q=%22https%3A%2F%2Fwww.nytimes.com%2F%22&amp;rlz=1C1ASVC_enCA1088CA1088&amp;oq=%22https%3A%2F%2Fwww.nytimes.com%2F%22&amp;gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAAGIAEMgcIAhAAGIAEMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBCDU0MDZqMGo0qAIAsAIB&amp;sourceid=chrome&amp;ie=UTF-8" DesignTimeRectangle="91, 302, 68, 37" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='News' class='YmvwI' parentid='hdtb-sc' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='News' class='YmvwI' parentid='hdtb-sc' tag='DIV' type='' check:innerText='News' /&gt;" Guid="04116d5c-8a97-4712-b304-847c1b477705" InformativeScreenshot="1f529adb8e31be1b3e64d6ea34acb002.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='&amp;quot;https://www.nytimes.com/&amp;quot; - Google Search' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'Abortion Jumps'" sap:VirtualizedContainerService.HintSize="433.6,197.6" sap2010:WorkflowViewState.IdRef="NGetText_11" ScopeIdentifier="38ec3a8b-bd9a-4c51-ad82-45590eb7c931" TextString="[websiteName]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.google.com/search?sca_esv=c6e69ef0fa2af6ef&amp;rlz=1C1ASVC_enCA1088CA1088&amp;sxsrf=ACQVn0_2RqLvWBawYqq2WDANQHZLHGacBA:1712720110373&amp;q=Abortion+Jumps+to+the+Center+of+Arizona%E2%80%99s+Key+2024+Races&amp;tbm=nws&amp;source=lnms&amp;prmd=nvismbtz&amp;sa=X&amp;ved=2ahUKEwjk45zO27aFAxVZl4kEHVf3DeQQ0pQJegQIDRAB&amp;cshid=1712720352014604&amp;biw=1396&amp;bih=614&amp;dpr=1.38" DesignTimeRectangle="290, 464, 151, 18" DesignTimeScaleFactor="1.375" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='rso' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='rso' tag='SPAN' type='' class='' /&gt;" Guid="be3eba8b-086c-48d8-b637-a0d456e95aa1" InformativeScreenshot="2b9870f7f34095da806768bde88b8152.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Abortion Jumps to the Center of Arizona’s Key 2024 Races - Google Search' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="257, 495, 748, 33" ElementType="Text" FullSelectorArgument="&lt;webctrl aria-role='heading' parentid='rso' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='heading' parentid='rso' tag='DIV' type='' class='n0jPhd ynAwRc MBeuO nDgy9d' aaname='Abortion Jumps to the Center of Arizona&amp;apos;s Key 2024 Races' check:innerText='Abortion Jumps to the Center of Arizona&amp;apos;s Key 2024 Races' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.6,125.6" sap2010:WorkflowViewState.IdRef="MessageBox_6" Text="[&quot;website name: &quot; + websiteName]" />
+            <uix:NGetText DisplayName="Get Text 'Democrats seized'" sap:VirtualizedContainerService.HintSize="433.6,197.6" sap2010:WorkflowViewState.IdRef="NGetText_12" ScopeIdentifier="38ec3a8b-bd9a-4c51-ad82-45590eb7c931" TextString="[title]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.google.com/search?sca_esv=c6e69ef0fa2af6ef&amp;rlz=1C1ASVC_enCA1088CA1088&amp;sxsrf=ACQVn0_2RqLvWBawYqq2WDANQHZLHGacBA:1712720110373&amp;q=Abortion+Jumps+to+the+Center+of+Arizona%E2%80%99s+Key+2024+Races&amp;tbm=nws&amp;source=lnms&amp;prmd=nvismbtz&amp;sa=X&amp;ved=2ahUKEwjk45zO27aFAxVZl4kEHVf3DeQQ0pQJegQIDRAB&amp;cshid=1712720352014604&amp;biw=1396&amp;bih=614&amp;dpr=1.38" DesignTimeRectangle="257, 495, 748, 33" DesignTimeScaleFactor="1.375" ElementType="Text" FullSelectorArgument="&lt;webctrl aria-role='heading' parentid='rso' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='heading' parentid='rso' tag='DIV' type='' class='n0jPhd ynAwRc MBeuO nDgy9d' /&gt;" Guid="eb70c38b-9115-4fc9-a27f-c2afe1453f6e" InformativeScreenshot="bc5be7c83e68776194c94c3997fb7847.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Abortion Jumps to the Center of Arizona’s Key 2024 Races - Google Search' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="257, 539, 748, 60" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Democrats seized on a ruling on Tuesday by Arizona&amp;apos;s highest cou*' parentid='rso' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Democrats seized on a ruling on Tuesday by Arizona&amp;apos;s highest cou*' parentid='rso' tag='DIV' type='' class='GI74Re nDgy9d' /&gt;" ImageBase64="" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.6,125.6" sap2010:WorkflowViewState.IdRef="MessageBox_7" Text="[&quot;title is &quot; + title]" />
+            <uix:NGetText DisplayName="Get Text '6 hours ago'" sap:VirtualizedContainerService.HintSize="433.6,197.6" sap2010:WorkflowViewState.IdRef="NGetText_13" ScopeIdentifier="38ec3a8b-bd9a-4c51-ad82-45590eb7c931" TextString="[summary]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.google.com/search?sca_esv=c6e69ef0fa2af6ef&amp;rlz=1C1ASVC_enCA1088CA1088&amp;sxsrf=ACQVn0_2RqLvWBawYqq2WDANQHZLHGacBA:1712720110373&amp;q=Abortion+Jumps+to+the+Center+of+Arizona%E2%80%99s+Key+2024+Races&amp;tbm=nws&amp;source=lnms&amp;prmd=nvismbtz&amp;sa=X&amp;ved=2ahUKEwjk45zO27aFAxVZl4kEHVf3DeQQ0pQJegQIDRAB&amp;cshid=1712720352014604&amp;biw=1396&amp;bih=614&amp;dpr=1.38" DesignTimeRectangle="257, 539, 748, 60" DesignTimeScaleFactor="1.375" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Democrats seized on a ruling on Tuesday by Arizona&amp;apos;s highest cou*' parentid='rso' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='rso' tag='DIV' type='' class='GI74Re nDgy9d' /&gt;" Guid="727beb0b-edff-4488-a1ce-a57d93835eb7" InformativeScreenshot="606a9a699854316e153f1f91b17588a9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Abortion Jumps to the Center of Arizona’s Key 2024 Races - Google Search' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="257, 610, 101, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='6 hours ago' parentid='rso' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='6 hours ago' parentid='rso' tag='SPAN' type='' class='' /&gt;" ImageBase64="" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.6,125.6" sap2010:WorkflowViewState.IdRef="MessageBox_8" Text="[&quot;summary is &quot; + summary]" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" sap:VirtualizedContainerService.HintSize="433.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="38ec3a8b-bd9a-4c51-ad82-45590eb7c931" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="1871, 9, 58, 50" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Abortion Jumps to the Center of Arizona’s Key 2024 Races - The N*' role='pane' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Abortion Jumps to the Center of Arizona’s Key 2024 Races - The N*' role='pane' /&gt;&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="071bf9ff-2544-4b64-b6f3-eec69016386a" InformativeScreenshot="de2948622fdc300b47b3583b2e1cd95c.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Abortion Jumps to the Center of Arizona’s Key 2024 Races - The N*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="1814, 9, 58, 50" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Abortion Jumps to the Center of Arizona’s Key 2024 Races - The N*' role='pane' /&gt;&lt;ctrl name='Restore' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Abortion Jumps to the Center of Arizona’s Key 2024 Races - The N*' role='pane' /&gt;&lt;ctrl name='Restore' role='push button' automationid='' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.6,125.6" sap2010:WorkflowViewState.IdRef="MessageBox_9" Text="[&quot;HURRAYYYY!!! Mission accomplished... Click 'OK' to finish up! &quot;]" />
+            <Assign sap:VirtualizedContainerService.HintSize="433.6,123.2" sap2010:WorkflowViewState.IdRef="Assign_5">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[singleString]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String" xml:space="preserve">["Website Name: " &amp; websiteName &amp; vbCrLf &amp;
+               "Article Title: " &amp; title &amp; vbCrLf &amp;
+               "Article Summary: " &amp; summary]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.6,125.6" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[&quot;The singleString is: &quot; + singleString]" />
+            <Assign sap:VirtualizedContainerService.HintSize="433.6,122.4" sap2010:WorkflowViewState.IdRef="Assign_6">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Int32">[positionOfTimes]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">[websiteName.IndexOf("times", StringComparison.InvariantCultureIgnoreCase)]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.6,125.6" sap2010:WorkflowViewState.IdRef="MessageBox_5" Text="[&quot;The position of 'times'  value is: &quot; +  positionOfTimes.ToString]" />
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.6,125.6" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;The position of 'times' in the website name is &quot; + positionOfTimes.ToString]" />
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,168.8" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;The position of 'times' in the website name is &quot; + positionOfTimes.ToString]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="213, 43, 1540, 977" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAABIJJREFUaEPtmFtoVUcUhlMtWrTxkvvlGGNI1ZoXBcH0yaC2XvCCaPSh5KHRVytSVIoKIRiNpbYqikKhtJZ6exAVRVCiERTBBxVSWqx3kSomtuqDVmM8fmuzdpgz2ck5OWd2onB++Jm9Z9as9a/Zs2dm74w00kij7xGNRj+oqKgYVFpa+pGUcq9N7weqq6sHlpWVDc/NzS3Pzs7elJWV9RIeysnJGacm4YOAlQRvgIfhWXgE7kLEcspP1Swh4OsgjNLvBVyo1eGAUfuEIM0SMA7vkMyPlJXatVvgb5vfj+vnsFcDkDBEDM6f+sF6wdv020JZWVdXN0DdeaAuQttDw1aS+Fmb3aG4uBi/2Y/MQMkQH09hE/wV/i73AXY3Naw7MB1+CAgUCknqmYZ1B5zGPOYwSay/NawbsF6PCAoUFklgp4Z2g0gkgt+YAA+YUl/m5+cPFcp6Tv1iuBW2+HbJEN/P8TlGQ7sDzh9rkDcInqjVgUDEDPg1bMK+XfslwnZ8L1U3boGYHRKE8ppWxYAnMpY2Wc8PmAmWlJSMpL6G+v3QH4QgtuBjqnZzD5xnIuQygVrNtZz7CfA4fEP73qqqqg+1qRMyzWiPyJkHm/Ey/SjXUHcIruR6ipqGi6KioiEErydobXl5+WDK7+ArKE9mr30ow7aI+s20/wuXaXUnaJ+rl30LxMjueVGEq/i/ZJS1WY4bEyUh2rzklO9GAoWFhaMRc88QFkXwLBl9ytkIP2O2Gez/BOQIjJA/TGEIvp6XlzcT8XPgErPNYv8ngNhjtjDqGuR8L+2SiN1usEsC9F0vT1RvwwUCFlmCPDLqk9Qk4QR0NZKXWwbgH3z0uK84AcFipo4G/99cNhNJQFevfWYbfp5Rfu45CQMyymZAnwS+ryYe4iWgZ6pzVr3PV/irUVduwcv2TUBAYYuaeIiXgHzAU3qfjzYRL98J09SVW+D4l26C/qkmHhKZQrKL02+72cb9g1DfAwKcNgMabFUTD4m+xAJ8rpV6ymuhnD5NEOSCJcZnB9MrU816lYCAvqs5nuTobQwKCgpK9TJ1kIAci4NERc3NKIkEut3IiNmol6mD4IEvnvInNXOWALZf0HZAb1MHL9hGS4zJl0yDUWLXQwJPGNHpnjMDQQno199d2r7XqtSBs/mGmC5E3GHZXe0EqL8BVzAAH6urGNgJyJGEfie0f61Wpw52z2EIeeELCyJi6v0EsJVfjQvsn1g2zATkRy99O6cqL/EEbXIDBAXuBSaxaSaJz7RLXPgJ6E5/xfB1yzNwCdbqMhzLX+QY0TZJ4j7lSjl6a9dAyNPBbhWUb+XX0tcnPr5VM7fA8TozUBy+xv4S3C3Ti/tVXK/lWv7wyTzv7gO/DQ7TkG6hL9lJI1gY/ErDhQNGMJMg562gTsgT+k3DhAv9TSK/RAKFJEPEH5XTqoboG/A0lhP8P1tML9mB+Eb/s7TPoX/eGhDSagmLS/qdYhAmq6v+hXwqImYewvbAq4gL2vjaqJeD4QbK8dr13YWs9TI1hPF25TTSSCMZZGS8BR3ANwKvfxJ0AAAAAElFTkSuQmCC" InformativeScreenshot="b556deb433670073137c7ef08205b936.jpg" Selector="&lt;html app='chrome.exe' title='The New York Times - Breaking News, US News, World News and Videos' /&gt;" Title="The New York Times - Breaking News, US News, World News and Vide*" Url="https://www.nytimes.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
